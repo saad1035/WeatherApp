@@ -1,6 +1,6 @@
 # WeatherApp
-# An application that showcases the current weather, high/low, and date for various places across the world all with the help of openweathermap api. 
-# A live demo of the application can be viewed through this link: https://weatherappdemo.netlify.app
+An application that showcases the current weather, high/low, and date for various places across the world all with the help of openweathermap api. 
+A live demo of the application can be viewed through this link: https://weatherappdemo.netlify.app
 
 # General Description 
 This weather app was created through the use of JS, CSS and HTML. In addition, it utilizes openweathermap api that retrieves data regarding weather around the world. 
