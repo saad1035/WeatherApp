@@ -1,0 +1,54 @@
+<!-- Originally Created: February 12, 2022 -->
+<!-- Modified: July 10, 2022 -->
+<!-- Name: Saad N -->
+<!-- Description: Structures the web page and its content of the weather app -->
+
+<!-- Delcaration -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head to define stuff -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<!-- Body -->
+
+<body>
+
+    <!-- Division -->
+    <div class="app-wrap">
+
+        <!-- Header for search box -->
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+        </header>
+
+        <!-- Main content of document -->
+        <main>
+
+            <!-- Section of document for city and date -->
+            <section class="location">
+                <div class="city">City, Country</div>
+                <div class="date"> DayName Day Month Year</div>
+            </section>
+
+            <!-- Division for temp weather and hi/low -->
+            <div class="current">
+                <div class="temp">Temp<span>°c</span></div>
+                <div class="weather">Weather</div>
+                <div class="hi-low">High°c / Low°c</div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Client-side script -->
+    <script src="main.js"></script>
+</body>
+
+</html>
